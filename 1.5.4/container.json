@@ -7,7 +7,7 @@
 	"network": "--network wplibbox",
 	"ports": "-p 11211:11211",
 	"volumes": "",
-	"restart": "--restart unless-stopped",
+	"restart": "--restart no",
 	"args": "",
 	"env": "MEMCACHED_VERSION"
 }
