@@ -1,4 +1,4 @@
-FROM memcached:1.5.4-alpine
+FROM memcached:1.5.6-alpine
 MAINTAINER WPLib Team <team@wplib.org>
 
 COPY container.json /etc/container.json
