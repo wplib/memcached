@@ -12,12 +12,12 @@
 
 # memcached Docker Container for WPLib Box
 This is the repository for the [memcached-docker](https://memcached.org/) Docker container implemented for [WPLib-Box](https://github.com/wplib/wplib-box).
-It currently provides versions 1.5.6
+It currently provides versions 1.5.7
 
 
 ## Supported tags and respective Dockerfiles
 
-`1.5.6`, `1.5`, `latest` _([1.5.6/Dockerfile](https://github.com/wplib/memcached-docker/blob/master/1.5.6/Dockerfile))_
+`1.5.7`, `1.5`, `latest` _([1.5.7/Dockerfile](https://github.com/wplib/memcached-docker/blob/master/1.5.7/Dockerfile))_
 
 
 ## Using this container.
@@ -40,23 +40,23 @@ A simple `docker pull wplib/memcached` will pull down the latest version.
 ### Runtime from Docker Hub
 start - Spin up a Docker container with the correct runtime configs.
 
-`docker run -d --name wplib_memcached_1.5.6 --restart unless-stopped --network wplibbox -p 11211:11211  wplib/memcached:1.5.6`
+`docker run -d --name wplib_memcached_1.5.7 --restart unless-stopped --network wplibbox -p 11211:11211  wplib/memcached:1.5.7`
 
 stop - Stop a Docker container.
 
-`docker stop wplib_memcached_1.5.6`
+`docker stop wplib_memcached_1.5.7`
 
 run - Run a Docker container in the foreground, (all STDOUT and STDERR will go to console). The Container be removed on termination.
 
-`docker run --rm --name wplib_memcached_1.5.6 --network wplibbox -p 11211:11211  wplib/memcached:1.5.6`
+`docker run --rm --name wplib_memcached_1.5.7 --network wplibbox -p 11211:11211  wplib/memcached:1.5.7`
 
 shell - Run a shell, (/bin/bash), within a Docker container.
 
-`docker run --rm --name wplib_memcached_1.5.6 -i -t --network wplibbox -p 11211:11211  wplib/memcached:1.5.6 /bin/bash`
+`docker run --rm --name wplib_memcached_1.5.7 -i -t --network wplibbox -p 11211:11211  wplib/memcached:1.5.7 /bin/bash`
 
 rm - Remove the Docker container.
 
-`docker container rm wplib_memcached_1.5.6`
+`docker container rm wplib_memcached_1.5.7`
 
 
 ## Using it from GitHub repo
