@@ -1,3 +1,5 @@
+![memcached 1.5.x](https://img.shields.io/badge/memcached-1.5.x-green.svg)
+
 ```
  __          _______  _      _ _       ____
  \ \        / /  __ \| |    (_) |     |  _ \
