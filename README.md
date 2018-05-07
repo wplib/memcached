@@ -14,7 +14,7 @@
 
 # memcached Docker Container for WPLib Box
 This is the repository for the [memcached-docker](https://memcached.org/) Docker container implemented for [WPLib-Box](https://github.com/wplib/wplib-box).
-It currently provides versions 1.5.7
+It currently provides versions 1.5.x
 
 
 ## Supported tags and respective Dockerfiles
